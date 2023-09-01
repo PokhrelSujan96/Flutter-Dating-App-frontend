@@ -1,5 +1,4 @@
 import 'package:datingapp/App/Screens/HomeScreen.dart';
-import 'package:datingapp/App/Screens/NearMe_Screen.dart';
 import 'package:datingapp/App/Screens/Profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

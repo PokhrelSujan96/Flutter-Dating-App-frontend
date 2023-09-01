@@ -14,7 +14,6 @@ import 'package:page_transition/page_transition.dart';
 import 'package:datingapp/App/Resources/Shadow.dart';
 import 'package:datingapp/App/Resources/colors.dart';
 import 'package:datingapp/App/Resources/images.dart';
-import 'package:datingapp/App/Screens/NearMe_Screen.dart';
 import 'package:datingapp/App/widgets/AppBar.dart';
 import 'package:datingapp/App/widgets/HeadingText.dart';
 import 'package:datingapp/App/widgets/SmallButton.dart';
@@ -92,13 +91,7 @@ class HomeScreen extends StatelessWidget {
               //your dates
               HeadingText(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      PageTransition(
-                          type: PageTransitionType.fade,
-                          duration: Duration(seconds: 1),
-                          child: NearMe()),
-                    );
+                   //updated soon
                   },
                   text1: "YOUR DATES",
                   text2: "VIEW MORE",
@@ -110,13 +103,7 @@ class HomeScreen extends StatelessWidget {
               ),
               HeadingText(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      PageTransition(
-                          type: PageTransitionType.fade,
-                          duration: Duration(seconds: 1),
-                          child: NearMe()),
-                    );
+                //updated soon
                   },
                   text1: "NEAR YOU",
                   text2: "VIEW MORE",
